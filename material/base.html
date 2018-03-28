@@ -150,8 +150,8 @@
       {% endblock %}
     </div>
     {% block scripts %}
-      <script src="{{ base_url }}/assets/javascripts/application-14120aaec9.js"></script>
-      {% set languages = lang.t("search.languages").split(",") %}
+      <script src="{{ base_url }}/assets/javascripts/application-6940329b9f.js"></script>
+  {% set languages = lang.t("search.languages").split(",") %}
       {% if languages | length and languages[0] != "" %}
         {% set path = base_url + "/assets/javascripts/lunr" %}
         <script src="{{ path }}/lunr.stemmer.support.js"></script>

@@ -156,8 +156,8 @@ pages:
     - 'References': 'references.md'
 #theme: material
 theme_dir: material
-extra_css: [fonts/MavenPro.css, css/custom.css]
-extra_javascript: [js/jquery.min.js, js/custom.js]
+extra_css: [fonts/MavenPro.css, css/custom.css, '//cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css']
+extra_javascript: [js/jquery.min.js, js/custom.js, '//cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js']
 markdown_extensions:
   - markdown.extensions.admonition
   - markdown.extensions.codehilite:
